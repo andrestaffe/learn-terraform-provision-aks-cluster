@@ -45,8 +45,8 @@ resource "azurerm_kubernetes_cluster" "default" {
     environment = "Demo"
   }
 }
-module "bridgecrew-read" {
-  source           = "bridgecrewio/bridgecrew-azure-read-only/azurerm"
-  org_name         = "plmvi"
-  bridgecrew_token = var.bridgecrew_token
-}
+#module "bridgecrew-read" {
+#  source           = "bridgecrewio/bridgecrew-azure-read-only/azurerm"
+#  org_name         = "plmvi"
+#  bridgecrew_token = var.bridgecrew_token
+#}
